@@ -20,3 +20,4 @@ minikube addons list | grep STATUS && minikube addons list | grep enabled && \
 
 # Showing current status of Minikube
 echo '\n\n\033[4;33m Current status of Minikube \033[0m' && minikube status
+minikube dashboard
